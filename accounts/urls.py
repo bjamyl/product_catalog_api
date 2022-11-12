@@ -5,7 +5,7 @@ from .views import CustomUserView
 from djoser import views
 
 router = DefaultRouter()
-router.register("users", views.UserViewSet)
+router.register("users", CustomUserView)
 
 User = get_user_model()
 
