@@ -25,5 +25,3 @@ class CustomUserView(UserViewSet):
             # settings.EMAIL.password_reset(self.request, context).send(to)
 
         return Response(status=status.HTTP_204_NO_CONTENT)
-
-    
